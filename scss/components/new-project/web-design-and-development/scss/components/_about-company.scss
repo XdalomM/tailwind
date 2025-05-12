@@ -1,0 +1,61 @@
+.about-company{
+    margin-top: 2.5rem;
+    gap: 5.5rem;
+    .left{
+        padding-left: 6.25rem;
+        .left-img{
+            width: 31.25rem;
+            height: 25rem;
+
+
+        }
+        .left-img2{
+            margin-top: -10.25rem;
+            margin-left: -10.938rem;
+        }
+    }
+    .right{
+        margin-top: 2.5rem;
+        .right-date{
+            color: #FF4F4F;
+            font-weight: 500;
+            font-size: 1rem;
+
+        }
+        .right-tittel{
+            font-weight: 600;
+            font-size: 2.813rem;
+            color: #444444;
+            line-height: 3.25rem;
+
+        }
+        .right-text{
+            margin-top: 0.625rem;
+            font-weight: 500;
+            font-size: 1.25rem;
+            line-height: 1.875rem;
+            color: #444444;
+
+        }
+        .right-text2{
+            margin-top: 0.625rem ;
+            font-weight: 400;
+            font-size: 1rem;
+            color: #444444;
+
+
+        }
+        .right-buttun-pr{
+            margin-top: 3.625rem;
+            button{
+                border: none;
+                background-color: #FF4F4F;
+                font-weight: 500;
+                font-size: 0.938rem;
+                color: #FFFFFF;
+                padding: 0.625rem 1.25rem;
+                border-radius: 0.25rem;
+            }
+        }
+    }
+}

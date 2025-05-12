@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body html{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+    // max-width: 100%;
+}
+
+.flex{
+    display: flex;
+}
+.space-bettwen{
+    justify-content: space-between;
+}
+header{
+    // margin-top: 1.125rem;
+}
+.justify-between{
+    justify-content: space-between;
+}
+body{
+    font-family: "Work Sans",
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Work Sans",
+}
+a, button{
+    font-family: "Work Sans",
+}
+
+@import "./components/nav";
+@import "./components/header-bg";
+@import "./components/headeri-mg-part";
+@import "./components/about-company";
+@import "./components/subscrib";
